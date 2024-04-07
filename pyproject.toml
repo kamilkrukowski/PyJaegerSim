@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyjaegersim"
+version = "0.1.0"
+description = "A package for generating synthetic Opentelemetry traces using arbitrary toy application topologies and latency distributions."
+authors = ["Kamil Krukowski <Kamiljkrukowski@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
